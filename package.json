@@ -1,0 +1,23 @@
+{
+  "name": "jarveat_test_ball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariion-62/testBall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariion-62/testBall/issues"
+  },
+  "homepage": "https://github.com/Mariion-62/testBall#readme",
+  "dependencies": {
+    "sass": "^1.58.0",
+    "typescript": "^4.9.5"
+  }
+}

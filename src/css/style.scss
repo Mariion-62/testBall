@@ -1,0 +1,63 @@
+$main-color: black;
+$second-color: white;
+$desktop-color: #7068fa;
+$mobile-color: #0c99c1;
+$tablet-color: #c40018;
+body {
+  background: $main-color;
+  color: $second-color;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+}
+#container {
+  position: relative;
+}
+#ball {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: $desktop-color;
+  border: 1px solid white;
+  margin: 15vh auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 5vh 0;
+  }
+  #ball {
+    margin: 10vh auto;
+
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: $mobile-color;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    width: 90vw;
+    margin: 5vh 0;
+    padding-right: 5vw;
+  }
+  #ball {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: $tablet-color;
+    margin: 10vh auto;
+  }
+}
